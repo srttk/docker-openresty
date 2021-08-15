@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Starting openresty"
+/usr/local/openresty/bin/openresty -g 'daemon off;'

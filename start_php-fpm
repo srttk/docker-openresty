@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Starting php fpm service"
+service php7.1-fpm start

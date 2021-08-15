@@ -1,0 +1,10 @@
+version: "3"
+
+services: 
+    webserver:
+        image: "toothless:1"
+        ports: 
+            - "80:80"
+        volumes: 
+            - ./dispatch/nginx/conf.d/:/etc/nginx/conf.d/
+            - ./www:/usr/local/openresty/nginx/html
