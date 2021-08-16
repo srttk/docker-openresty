@@ -1,0 +1,4 @@
+# Author    : Sarath TK
+#! /bin/bash
+echo "Starting php fpm"
+service php7.1-fpm start

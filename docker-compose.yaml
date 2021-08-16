@@ -1,10 +1,12 @@
 version: "3"
 
-services: 
-    webserver:
-        image: "toothless:1"
-        ports: 
-            - "80:80"
-        volumes: 
-            - ./dispatch/nginx/conf.d/:/etc/nginx/conf.d/
-            - ./www:/usr/local/openresty/nginx/html
+services:
+  webserver:
+    image: "toothless:1"
+    ports:
+      - "80:80"
+    volumes:
+      - ./volume/php/fpm/:/etc/php/fpm
+      - ./volume/php/cli/:/etc/php/cli
+      - ./volume/openresty/nginx/conf:/usr/local/openresty/nginx/conf
+      - ./volume/www:/usr/local/openresty/nginx/html
