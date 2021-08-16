@@ -9,4 +9,5 @@ services:
       - ./volume/php/fpm/:/etc/php/fpm
       - ./volume/php/cli/:/etc/php/cli
       - ./volume/openresty/nginx/conf:/usr/local/openresty/nginx/conf
-      - ./volume/www:/usr/local/openresty/nginx/html
+      - ./volume/www:/www
+      - ./volume/outbox:/land/outbox
