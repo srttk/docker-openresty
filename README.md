@@ -31,3 +31,7 @@ you can use `outbox` directory for transfer file b/w host machine and container
 
 - Thanks @rjshk013 for [this](https://github.com/rjshk013/openresty1.13-php7.1-lua5.1) awesome documentation
 - The 'Toothless' name from [HTTYD](https://www.imdb.com/title/tt0892769/)
+
+#### Windows OS Erros
+- [standard_init_linux.go:228: exec user process caused: no such file or directory](https://www.koskila.net/how-to-fix-exec-user-process-caused-no-such-file-or-directory-in-docker-on-windows/)
+- [standard_init_linux.go:228: exec user process caused: no such file or directory](https://stackoverflow.com/questions/68881023/docker-standard-init-linux-go228-exec-user-process-caused-no-such-file-or-dir)
